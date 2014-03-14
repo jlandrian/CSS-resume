@@ -1,0 +1,148 @@
+/* { outline: solid 1px black; }*/
+
+body{
+	margin: 0px 0px 0px 0px;
+	background-color: #D5D5DB;
+}
+
+#container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+a:link {color: #D5D5DB;}
+a:hover {color: #6B6B6B;}
+
+p{
+	background-color: #000F82;
+	width: 100%;
+	font-size: 12px;
+}
+
+nav {
+	top: 105px;
+	position: absolute;
+	background-color: #000F82;
+	height: 60px;
+	width: 100%;
+}
+
+footer {
+	background-color: #000F82;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	bottom: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #D5D5DB;
+	font-size: 14px;
+}
+
+
+#name {
+	color: #000F82;
+	font-family: Tahoma, Geneva, sans-serif;
+	top: 65px;
+	left: 50px;
+	font-size: 40px;
+	position: absolute;
+}
+
+#buttons { 
+	color: #D5D5DB;
+	background-color: #000F82;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	height: 60px;
+	width: 80px;
+}
+
+.interests {
+	position: absolute;
+	right: 20px;
+}
+
+.education {
+	position: absolute;
+	right: 120px;
+}
+
+.experience {
+	position: absolute;
+	right: 220px;
+}
+
+#facebook {
+	position: absolute;
+	right: 320px;
+}
+
+#twitter {
+	position: absolute;
+	right: 380px;
+}
+
+#professional {
+	position: absolute;
+	left: 50px;
+	top: 200px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000F82;
+
+}
+
+#comp1date {
+	position: absolute;
+	top: 70px;
+	left: 400px;
+}
+
+#comp2date {
+	position: absolute;
+	top: 186px;
+	left: 400px;
+}
+
+#school {
+	position: absolute;
+	left: 50px;
+	top: 554px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000F82;
+}
+
+#int {
+	position: absolute;
+	left: 50px;
+	top: 735px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000F82;
+}
+
+#spacer {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50px;
+	top: 900px;
+}
+
+#email {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+
+#address {
+	position: absolute;
+	margin-top: 10px;
+	left: 0px;
+}
+
+#phone {
+	position: absolute;
+	left: 50%;
+	margin-top: 10px;
+}
+
